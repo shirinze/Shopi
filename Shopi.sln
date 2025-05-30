@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shopi", "Shopi", "{BCE73F21-D1A4-4170-AFF7-D20D609D4E4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopi.DomainModel", "Shopi.DomainModel\Shopi.DomainModel.csproj", "{A0643681-8BD5-444C-8101-25D791B7A204}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopi.DomainService", "Shopi.DomainService\Shopi.DomainService.csproj", "{C1D69F0A-9062-41D4-ACE3-4DEDC0FDEBF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopi.Infrastructure", "Shopi.Infrastructure\Shopi.Infrastructure.csproj", "{64BDEDF9-AA95-4E44-B201-0D2B38E7F1D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopi.Application", "Shopi.Application\Shopi.Application.csproj", "{8770B81D-6E2B-4A2B-A045-55A66897BF49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopi.WebApi", "Shopi.WebApi\Shopi.WebApi.csproj", "{F42B6B6C-B4A6-4A47-B8A4-E927A0B25619}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopi.Resources", "Shopi.Resources\Shopi.Resources.csproj", "{167B8FF9-F0D6-4946-B2F2-4E62546B8ECD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0643681-8BD5-444C-8101-25D791B7A204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0643681-8BD5-444C-8101-25D791B7A204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0643681-8BD5-444C-8101-25D791B7A204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0643681-8BD5-444C-8101-25D791B7A204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1D69F0A-9062-41D4-ACE3-4DEDC0FDEBF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1D69F0A-9062-41D4-ACE3-4DEDC0FDEBF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1D69F0A-9062-41D4-ACE3-4DEDC0FDEBF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1D69F0A-9062-41D4-ACE3-4DEDC0FDEBF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64BDEDF9-AA95-4E44-B201-0D2B38E7F1D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64BDEDF9-AA95-4E44-B201-0D2B38E7F1D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64BDEDF9-AA95-4E44-B201-0D2B38E7F1D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64BDEDF9-AA95-4E44-B201-0D2B38E7F1D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8770B81D-6E2B-4A2B-A045-55A66897BF49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8770B81D-6E2B-4A2B-A045-55A66897BF49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8770B81D-6E2B-4A2B-A045-55A66897BF49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8770B81D-6E2B-4A2B-A045-55A66897BF49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F42B6B6C-B4A6-4A47-B8A4-E927A0B25619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F42B6B6C-B4A6-4A47-B8A4-E927A0B25619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F42B6B6C-B4A6-4A47-B8A4-E927A0B25619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F42B6B6C-B4A6-4A47-B8A4-E927A0B25619}.Release|Any CPU.Build.0 = Release|Any CPU
+		{167B8FF9-F0D6-4946-B2F2-4E62546B8ECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{167B8FF9-F0D6-4946-B2F2-4E62546B8ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{167B8FF9-F0D6-4946-B2F2-4E62546B8ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{167B8FF9-F0D6-4946-B2F2-4E62546B8ECD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0643681-8BD5-444C-8101-25D791B7A204} = {BCE73F21-D1A4-4170-AFF7-D20D609D4E4A}
+		{C1D69F0A-9062-41D4-ACE3-4DEDC0FDEBF4} = {BCE73F21-D1A4-4170-AFF7-D20D609D4E4A}
+		{64BDEDF9-AA95-4E44-B201-0D2B38E7F1D1} = {BCE73F21-D1A4-4170-AFF7-D20D609D4E4A}
+		{8770B81D-6E2B-4A2B-A045-55A66897BF49} = {BCE73F21-D1A4-4170-AFF7-D20D609D4E4A}
+		{F42B6B6C-B4A6-4A47-B8A4-E927A0B25619} = {BCE73F21-D1A4-4170-AFF7-D20D609D4E4A}
+		{167B8FF9-F0D6-4946-B2F2-4E62546B8ECD} = {BCE73F21-D1A4-4170-AFF7-D20D609D4E4A}
+	EndGlobalSection
+EndGlobal
