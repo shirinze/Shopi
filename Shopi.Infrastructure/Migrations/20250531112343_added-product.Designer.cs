@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Shopi.Infrastructure.Data.DbContexts;
 
@@ -11,9 +12,11 @@ using Shopi.Infrastructure.Data.DbContexts;
 namespace Shopi.Infrastructure.Migrations
 {
     [DbContext(typeof(ShopiDbContext))]
-    partial class ShopiDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250531112343_added-product")]
+    partial class addedproduct
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

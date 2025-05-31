@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Shopi.DomainModel.Models;
+using Shopi.DomainModel.Models.ProductAggrigate;
 
 
 namespace Shopi.Infrastructure.Data.DbContexts;
@@ -35,6 +36,20 @@ public class ShopiDbContext(DbContextOptions options):DbContext(options)
 
             ]);
         #endregion
+
+        #region Product
+
+        modelBuilder.Entity<Gold>().Property(g => g.Price).HasPrecision(18, 2);
+
+        modelBuilder.Entity<Phone>().Property(p => p.Price).HasPrecision(18, 2);
+
+        modelBuilder.Entity<Shoes>().Property(s => s.Price).HasPrecision(18, 2);
+
+        modelBuilder.Entity<Shoes>().UseTpcMappingStrategy();
+        modelBuilder.Entity<Gold>().UseTpcMappingStrategy();
+        modelBuilder.Entity<Phone>().UseTpcMappingStrategy();
+        #endregion
+
         base.OnModelCreating(modelBuilder);
     }
 }

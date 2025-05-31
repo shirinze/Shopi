@@ -4,8 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shopi.DomainModel.Models;
+namespace Shopi.DomainModel.Models.ProductAggrigate;
 
-public class Product
+public class Gold : Product
 {
+    public int Karat { get; set; }
 }
